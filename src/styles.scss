@@ -14,8 +14,8 @@
 // hue. Available color palettes: https://material.io/design/color/
 $mat-automon-blue: #1976d2;
 $mat-automon-pink: #dc004e;
-$automon-ng-primary: mat-palette($mat-indigo);
-$automon-ng-accent: mat-palette($mat-pink, A200, A100, A400);
+$automon-ng-primary: mat-palette($mat-automon-blue);
+$automon-ng-accent: mat-palette($mat-automon-pink, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
 $automon-ng-warn: mat-palette($mat-red);
